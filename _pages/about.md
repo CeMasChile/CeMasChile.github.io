@@ -4,30 +4,26 @@ permalink: /about
 title: "Nosotros"
 description: "Area de trabajo de CeMAS"
 ---
-<div class="bg-white py-5">
-    <div class="container py-5">
-        <div class="row align-items-center mb-5">
-            <div class="col-lg-6 order-2 order-lg-1">
-                <i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
-                <h2 class="font-weight-light">Recolección de datos</h2>
-                <p class="font-italic text-muted mb-4">Recolectamos datos de Twitter, y de noticias, y las almacenamos en una base de datos para su posterior análisis.</p><a href="{{site.baseurl}}/method" class="btn btn-light px-5 rounded-pill shadow-sm">Más información</a>
-            </div>
-            <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2">
-                <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" alt="" class="img-fluid mb-4 mb-lg-0">
-            </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col-lg-5 px-5 mx-auto">
-                <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/img-2_vdgqgn.jpg" alt="" class="img-fluid mb-4 mb-lg-0">
-            </div>
-            <div class="col-lg-6">
-                <i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
-                <h2 class="font-weight-light">Análisis de Datos</h2>
-                <p class="font-italic text-muted mb-4">Tomamos referencias geolocales, palabras más frecuentes, hashtags utilizados, entre otros, para obtener una radiografía nacional.</p><a href="{{site.baseurl}}/method" class="btn btn-light px-5 rounded-pill shadow-sm">Más información</a>
-            </div>
-        </div>
+<div class="row align-items-center mb-5">
+    <div class="col-lg-6 order-2 order-lg-1">
+        <i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+        <h2 class="font-weight-light">Recolección de datos</h2>
+        <p class="font-italic text-muted mb-4">Recolectamos datos de Twitter, y de noticias, y las almacenamos en una base de datos para su posterior análisis.</p><a href="{{site.baseurl}}/method" class="btn btn-light px-5 rounded-pill shadow-sm">Más información</a>
     </div>
-</div>      
+    <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2">
+        <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" alt="" class="img-fluid mb-4 mb-lg-0">
+    </div>
+</div>
+<div class="row align-items-center">
+    <div class="col-lg-5 px-5 mx-auto">
+        <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/img-2_vdgqgn.jpg" alt="" class="img-fluid mb-4 mb-lg-0">
+    </div>
+    <div class="col-lg-6">
+        <i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+        <h2 class="font-weight-light">Análisis de Datos</h2>
+        <p class="font-italic text-muted mb-4">Tomamos referencias geolocales, palabras más frecuentes, hashtags utilizados, entre otros, para obtener una radiografía nacional.</p><a href="{{site.baseurl}}/method" class="btn btn-light px-5 rounded-pill shadow-sm">Más información</a>
+    </div>
+</div>
 <div class="bg-light py-5">
     <div class="container py-5">
         <div class="row mb-4">

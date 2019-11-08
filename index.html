@@ -7,7 +7,7 @@ title: Home
 <!-- home item -->
     <div class="home-item">
     <!-- section background -->
-    <div class="section-bg" style="background-image: url('https://ep00.epimg.net/elpais/imagenes/2019/10/26/album/1572088158_397471_1572088939_album_normal.jpg');"></div>
+    <div class="section-bg" style="background-image: url('assets/images/background-3.jpg'); filter: blur(4px)"></div>
     <!-- /section background -->
 
     <!-- home content -->
@@ -16,9 +16,9 @@ title: Home
             <div class="row">
                 <div class="col-md-8">
                     <div class="home-content">
-                        <h1>Contingencia Nacional</h1>
+                        <h1 class="font-weight-light">Contingencia Nacional</h1>
                         <p class="lead">Queremos contrastar las opiniones de las personas con los medios de información en tiempo real.</p>
-                        <a href="{{site.baseurl}}/about" class="primary-button">Más información</a>
+                        <a href="{{site.baseurl}}/dashboard" class="primary-button">Más información</a>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@ title: Home
 <!-- home item -->
 <div class="home-item">
     <!-- Background Image -->
-    <div class="section-bg" style="background-image: url('https://ep00.epimg.net/elpais/imagenes/2019/10/26/album/1572088158_397471_1572088756_album_normal.jpg');"></div>
+    <div class="section-bg" style="background-image: url('assets/images/background-4.jpg'); filter: blur(4px)"></div>
     <!-- /Background Image -->
 
     <!-- home content -->
@@ -60,7 +60,16 @@ title: Home
 			<!-- row -->
 			<div class="row">
 				<!-- about content -->
-				<div class="col-md-5">
+				
+				<!-- /about content -->
+
+				<!-- about video -->
+				<div class="col-md-offset-1 col-md-6">
+                    <a class="about-video">
+                        <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-5" style="margin-left: 8.3%; margin-bottom: 5%">
 					<div class="section-title">
                         <h2 class="title">CeMAS</h2>
                         <p class="sub-title">Centro Multidisciplinario de Análisis Social.</p>
@@ -70,14 +79,6 @@ title: Home
                         <a href="{{site.baseurl}}/about" class="primary-button">Acerca del proyecto</a>
 					</div>
 				</div>
-				<!-- /about content -->
-
-				<!-- about video -->
-				<div class="col-md-offset-1 col-md-6" style="margin-left: 8.3%; margin-bottom: 5%;">
-                    <a class="about-video">
-                        <iframe width="729" height="410" src="https://www.youtube.com/embed/R86aEilSG3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </a>
-                </div>
 				<!-- /about video -->
 			</div>
 			<!-- /row -->
@@ -85,82 +86,4 @@ title: Home
 		<!-- /container -->
 	</div>
     <!-- /ABOUT -->
-    
-    <!-- NUMBERS -->
-	<div id="numbers" class="section">
-            <!-- container -->
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <!-- number -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="number">
-                            <i class="fas fa-smile"></i>
-                            <h3>47k</h3>
-                            <span>Donors</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-    
-                    <!-- number -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="number">
-                            <i class="fas fa-heartbeat"></i>
-                            <h3>154K</h3>
-                            <span>Children Saved</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-    
-                    <!-- number -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="number">
-                            <i class="fas fa-money-bill-alt"></i>
-                            <h3>785K</h3>
-                            <span>Donated</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-    
-                    <!-- number -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="number">
-                            <i class="fas fa-handshake"></i>
-                            <h3>357</h3>
-                            <span>Volunteers</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-                </div>
-                <!-- /row -->
-            </div>
-            <!-- /container -->
-        </div>
-        <!-- /NUMBERS -->
-
-	<!-- CTA -->
-	<div id="cta" class="section">
-            <!-- background section -->
-            <div class="section-bg" style="background-image: url(assets/images/contact-us-1.jpg);" data-stellar-background-ratio="0.5"></div>
-            <!-- /background section -->
-    
-            <!-- container -->
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <!-- cta content -->
-                    <div class="col-md-offset-2 col-md-8">
-                        <div class="cta-content text-center">
-                            <h1>Contáctanos</h1>
-                            <p class="lead">Y se parte de esta gran iniciativa.</p>
-                            <a href="{{site.baseurl}}/contacto" class="primary-button">Contáctanos</a>
-                        </div>
-                    </div>
-                    <!-- /cta content -->
-                </div>
-                <!-- /row -->
-            </div>
-            <!-- /container -->
-        </div>
-        <!-- /CTA -->
 

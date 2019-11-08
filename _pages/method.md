@@ -13,17 +13,27 @@ def probando(n):
 
 # Testing
 
-class Twitter:
+class Testing:
   def __init__(self, user, age, date):
     self.user = user
     self.age = age
     self.date = date
   
-  def set(self, user, arg):
-    self.arg = arg
+  def set(self, attr, arg):
+    if attr == "age":
+      self.age = arg
+    elif attr == "date":
+      self.date = arg
+    else:
+      print("Attribute doesn't exist.")
 
-  def get(self, user, arg):
-    self.arg = arg
+  def get(self, attr, arg):
+    if attr == "age":
+      return self.age
+    elif attr == "date":
+      return self.date
+    else:
+      print("Attribute doesn't exist.")
 
   def information(self, user):
     print("Information about user %s" %(user))

@@ -1,0 +1,78 @@
+team:
+    - name: Administración
+      members:
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Isidora Letelier
+            job: Administración
+
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Vicente Díaz
+            job: Fundador 
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Felipe Corrales
+            job: Fundador
+    - name: Apoyo Docente
+      members: 
+        - item:
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Jérémy Barbay
+            job: Apoyo Docente
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Felipe Bravo
+            job: Apoyo Docente
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Jocelyn Dunstan
+            job: Apoyo Docente
+    - name: Proyecto Twitter
+      members:
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: Twitter
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: Twitter
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: Twitter
+    - name: Proyecto Medicina-FECH
+      members:
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: Medicina-FECH
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: Medicina-FECH
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: Medicina-FECH
+    - name: Proyecto Defensoría Jurídica
+      members:
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: DDHH
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: DDHH
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Nobody
+            job: DDHH
+    - name: Desarrollo Web
+      members:
+        - item: 
+            photo: https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png
+            name: Kevin Pinochet
+            job: Desarrollo Web
